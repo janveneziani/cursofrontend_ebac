@@ -38,5 +38,12 @@ Informações de Alteração
 ## Gitflow
 - fluxo do Git
 
+## Branchs
+São ramificações / Versões paralelas
+- main / master (vai para produção, quando o projeto é publicado)
+- develop
+- DOD: Definition of Done - Critérios de aceite
+- versionamento 1.0.0
+
 ## Nota
 Senti dificuldades para acessar o Git no Visual Studio Code, porque estou trabalhando num Mac, como estava acostumada, preferi fazer diretamente no GitHub Desktop, espero que não seja um problema! Obrigada
