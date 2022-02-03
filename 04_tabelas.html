@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>HTML - Tabelas</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+<!--		<link rel="stylesheet" type="text/css" href="./css/reset.css">-->
+		
+		<!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="../atividade_m9/css/modulo-08.css">
+        <link rel="stylesheet" type="text/css" href="css/tabela.css">
+    </head>
+    <body>
+		<header>
+			<h2>Curso Front-end - Desenvolvedor Full-Stack Java</h2>
+			<nav>
+				<ul class="navegacao">
+					<li><a href="../atividade_m9/modulo-09-exercicio.html">Home</a></li>
+					<li><a href="../atividade_m9/02_listaselinks.html">Listas e Links</a></li>
+					<li><a href="../atividade_m9/03_formatacaodetexto.html">Formatação de Texto</a></li>
+					<li><a href="../atividade_m9/04_tabelas.html">Tabelas</a></li>
+					<li><a href="../atividade_m9/05_cafezinho.html">Vai um cafezinho?</a></li>
+				</ul>
+			</nav>
+		</header>
+        <section id="listas">
+        <h1>Tabelas</h1>
+        
+        <table border="1" width="100%" class="tabela1">
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center">Descrição da Tabela</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1A</td>
+                <td>1B</td>
+                <td>1C</td>
+            </tr>
+            <tr>
+                <td>2A</td>
+                <td>2B</td>
+                <td>2C</td>
+            </tr>
+            <tr>
+                <td>3A</td>
+                <td colspan="2">3BC</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Rodapé da Tabela</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Tabela como layout</h2>
+        <table width="600">
+            <tr>
+                <td colspan="4" bgcolor="#BBCCEE" height="90" align="center">Cabeçalho</td>
+            </tr>
+            <tr height="300">
+                <td width="20" bgcolor="blue"></td>
+                <td bgcolor="grey">Coluna 1</td>
+                <td bgcolor="green">Coluna 2</td>
+                <td width="20" bgcolor="blue"></td>
+            </tr>
+            <tr>
+                <td colspan="4" bgcolor="red" align="center">Rodapé</td>
+            </tr>
+        </table>
+    </section>
+		<footer>
+			<p>Desenvolvido por Janaina - <a href="mailto:jan.veneziani@me.com">Contato</a></p>
+		</footer>
+    </body>
+</html>

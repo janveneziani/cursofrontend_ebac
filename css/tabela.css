@@ -1,0 +1,58 @@
+table {
+    background: #ffffff;
+    border-collapse:collapse;
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+}
+
+table tr{
+    border: 1px solid #757575;
+}
+
+table th,
+table td{
+    font-family: 'Poppins', sans-serif;
+    padding:1.2rem;
+    text-align:right;
+    vertical-align:middle;
+}
+
+table tr td:first-child{
+    text-align: left;
+    font-weight:bold;
+}
+
+table tbody tr:nth-child(even){
+    background-color:gainsboro;
+}
+
+table tbody tr:hover{
+    background-color: rgba(0, 0, 255, 0.2)
+}
+
+
+table th{
+    background: #234589;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align:left;
+}
+
+.table-container{
+    padding: 0.25rem 0.25rem;
+}
+
+.table-container h3{
+    font-size: 1.8rem;
+    font-style: normal;
+    margin-bottom: 1.8rem;
+}
+
+.table-container tfoot{
+    background:#EEEEEE;
+}
+
+.table-container tfoot td{
+    font-weight:bold;
+}

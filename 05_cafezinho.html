@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cafezinho</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+<!--		<link rel="stylesheet" type="text/css" href="./css/reset.css">-->
+		
+		<!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="../atividade_m9/css/modulo-08.css">
+        <link rel="stylesheet" type="text/css" href="css/tabela.css">
+    </head>
+    <body>
+		<header>
+			<h2>Curso Front-end - Desenvolvedor Full-Stack Java</h2>
+			<nav>
+				<ul class="navegacao">
+					<li><a href="../atividade_m9/modulo-09-exercicio.html">Home</a></li>
+					<li><a href="../atividade_m9/02_listaselinks.html">Listas e Links</a></li>
+					<li><a href="../atividade_m9/03_formatacaodetexto.html">Formatação de Texto</a></li>
+					<li><a href="../atividade_m9/04_tabelas.html">Tabelas</a></li>
+					<li><a href="../atividade_m9/05_cafezinho.html">Vai um cafezinho?</a></li>
+				</ul>
+			</nav>
+		</header>
+        <section id="cafezinho">
+            <h2>Olá, Cliente!</h2>
+            <p>Você está a fim de aparecer aqui no nosso estúdio para tomar um café?</p>
+            <p>Que ótimo! Verifique algumas opções que pensamos para você:</p>
+           <br>
+            <article>
+              <div class="fotocafe">
+                <img src="images/coffee-square.jpg">
+              </div>
+              <div class="formulariocafe">
+                <form method="post">
+                    <div class="parte1form">
+                        <div>
+                            <label for="nome">Seu nome</label><br>
+                            <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label><br>
+                            <input type="email" name="email" id="email" placeholder="digite seu e-mail">
+                        </div>
+                        <div>
+                            <label for="mensagem">Tem algum briefing além do café?</label><br>
+                            <textarea name="mensagem" id="mensagem" rows="5" placeholder="digite sua mensagem"></textarea>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                    <div>
+                        <p>
+                        <label>Qual tipo de café você prefere?</label>
+                        <input type="radio" name="cafes" value="coado"> Coado
+                        <input type="radio" name="cafes" value="torrado"> Torrado na hora
+                        <input type="radio" name="cafes" value="italiano"> Cafeteira italiana
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        <label>Se preferir, com leite:</label>
+                        <input type="checkbox" name="cafes" value="latte"> Latte
+                        <input type="checkbox" name="cafes" value="pingado"> Pingado
+                        <input type="checkbox" name="cafes" value="cappuccino"> Cappuccino
+                        </p>
+                    </div>
+                    <div>
+                        <label>Como adoçar?</label>
+                        <select>
+                            <option value="acucar">Açúcar</option>
+                            <option value="adocante" selected>Adoçante</option>
+                            <option value="semadocar">Sem nada</option>
+                        </select>
+                    </div>
+                    </div>
+                    <div class="divbotaoenviar">
+                        <input type="submit" id="botaoenviar" value="Enviar">
+                    </div>
+                </form>
+              </div>
+            </article>
+        </section>
+		<footer>
+			<p>Desenvolvido por Janaina - <a href="mailto:jan.veneziani@me.com">Contato</a></p>
+		</footer>
+    </body>
+</html>
