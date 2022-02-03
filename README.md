@@ -30,3 +30,6 @@ Informação de alteração
 
 ## Gitflow
 - fluxo do Git
+
+## Nota
+Senti dificuldades para acessar o Git no Visual Studio Code, porque estou trabalhando num Mac, como estava acostumada, preferi fazer diretamente no GitHub Desktop, espero que não seja um problema! Obrigada
