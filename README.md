@@ -29,6 +29,11 @@ http://git-csm.com
 ## Commits
 Informação de alteração
 - Após testado todo seu código
+Informações de Alteração
+- git add *
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositório GitHub)
+- git pull (puxar / trazer alterações do GitHub para minha máquina)
 
 ## Gitflow
 - fluxo do Git
